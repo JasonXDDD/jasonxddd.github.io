@@ -5,6 +5,10 @@ highlighter:      pygments
 # Permalinks
 permalink:        pretty
 
+# Disqus 
+layout: default
+comments: true
+
 # Setup
 title:            JasonXDDD
 tagline:          成神之路
