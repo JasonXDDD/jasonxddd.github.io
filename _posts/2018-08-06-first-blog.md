@@ -1,7 +1,15 @@
 ---
-layout: post
-title: Example content
+layout     : post
+title      : "新部落格開張拉!!!"
+subtitle   : "第一篇文章測試"
+date       : 2018-08-06 03:05
+author     : "JasonXDDD"
+tags       : Blog
+comments   : true
+signature  : true
 ---
+
+測試測試
 
 
 <div class="message">
