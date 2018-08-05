@@ -121,7 +121,7 @@ $(function () {
   }
   $('canvas').on('mousemove', function (e) {
     mousePosition.x = e.pageX;
-    mousePosition.y = e.pageY - 400;
+    mousePosition.y = e.pageY;
   });
   $('canvas').on('mouseleave', function (e) {
     mousePosition.x = canvas.width / 2;
