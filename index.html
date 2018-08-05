@@ -17,12 +17,12 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</span>
+    <span class="post-date">Posted by <span style="color: #ffabab;">{{ post.author }}</span> on <span style="color: #ababff;">{{ post.date | date: "%B %-d, %Y" }}</span></span>
 
     {% if post.content contains "<!-- more -->" %}
       {{ post.content | split: "<!-- more -->" | first % }}
     {% else %}
-      {{ post.content | strip_html | truncatewords: 100 }}
+      {{ post.content | strip_html | truncatewords: 50 }}
     {% endif %}
 
     <div class="post-info">
@@ -42,15 +42,17 @@ title: Home
             <i class="fa fa-comments fa-stack-1x"></i>
           </span>
           <a href="https://jasonxddd.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+          <div
+            class="fb-like social-plugins"
+            data-href="https://jasonxddd.github.io{{post.url}}"
+            data-layout="button"
+            data-action="like"
+            data-share="true"
+            style="vertical-align: text-bottom">
+          </div>
         </div>
       </div>
-      <div
-        class="fb-like social-plugins"
-        data-href="https://jasonxddd.github.io{{post.url}}"
-        data-layout="button"
-        data-action="like"
-        data-share="true">
-      </div>
+      
     </div>
   </div>
   {% endfor %}

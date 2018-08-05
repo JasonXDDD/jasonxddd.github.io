@@ -1,3 +1,14 @@
+/* format */
+a{
+  text-decoration: none;
+  color: #e429e4;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #e966e9;
+}
+
 /* sidebar */
 .sidebar p.lead{
   font-size: 20px;
@@ -23,13 +34,34 @@
 }
 
 .sidebar ul li a span:hover i:nth-child(1) {
-  color: white;
+  color: #e966e9;
 }
 
 .sidebar ul li a span:hover i:nth-child(2) {
-  color: #484848;
+  color: #333;
 }
 
 .sidebar p.sidebar-copyright {
   font-size: 14px;
+}
+
+
+/* home */
+.posts .post-info {
+  padding-top: 1em;
+  padding-left: 2em;
+  font-size: 16px;
+  color: #777;
+}
+
+a.tag-wrapper {
+  display: inline-block;
+  color: white;
+  background-color: #e966e9;
+  border-radius: 5px;
+  padding: 0 7px;
+}
+
+a.tag-wrapper:hover{
+  background-color: #ea79ea;
 }
