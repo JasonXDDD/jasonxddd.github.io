@@ -1,0 +1,35 @@
+/* sidebar */
+.sidebar p.lead{
+  font-size: 20px;
+}
+
+.sidebar ul {
+  margin: 0 auto 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.sidebar ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.sidebar ul li a span i:nth-child(1) {
+  color: #484848;
+}
+
+.sidebar ul li a span i:nth-child(2) {
+  color: white;
+}
+
+.sidebar ul li a span:hover i:nth-child(1) {
+  color: white;
+}
+
+.sidebar ul li a span:hover i:nth-child(2) {
+  color: #484848;
+}
+
+.sidebar p.sidebar-copyright {
+  font-size: 14px;
+}

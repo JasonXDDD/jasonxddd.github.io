@@ -12,7 +12,7 @@ comments: true
 # Setup
 title:            JasonXDDD
 tagline:          成神之路
-description:      整理看到好玩的技術文章，有時候也有會做做小玩具或是教學丟上來，還請期待一下囉XD<br><a href="https://www.facebook.com/jasonliu1022">罐罐XDD</a>
+description:      整理看到好玩的技術文章，有時候也有會做做小玩具或是教學丟上來，還請期待一下囉XD
 url:              https://jasonxddd.github.io
 baseurl:          /
 
@@ -27,3 +27,7 @@ paginate_path: "page:num"
 
 github:
   repo:           https://github.com/JasonXDDD/jasonxddd.github.io
+
+twitter_username: jasonxddd
+facebook_username: jasonxddd
+github_username: jasonxddd
