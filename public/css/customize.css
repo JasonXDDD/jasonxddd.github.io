@@ -58,6 +58,10 @@ a:hover{
   padding-left: 1em;
 }
 
+.post p {
+  white-space: pre-line;
+}
+
 a.tag-wrapper {
   display: inline-block;
   color: white;
