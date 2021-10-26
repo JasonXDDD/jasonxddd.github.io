@@ -10,6 +10,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://jasonxddd.github.io',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
