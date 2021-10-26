@@ -40,7 +40,7 @@ export default [
   },
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/','8a5'),
+    component: ComponentCreator('/blog/','f9e'),
     exact: true
   },
   {
@@ -49,18 +49,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/first-blog-post/',
-    component: ComponentCreator('/blog/first-blog-post/','43b'),
-    exact: true
-  },
-  {
-    path: '/blog/long-blog-post/',
-    component: ComponentCreator('/blog/long-blog-post/','70a'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post/',
-    component: ComponentCreator('/blog/mdx-blog-post/','f0a'),
+    path: '/blog/hello-world/',
+    component: ComponentCreator('/blog/hello-world/','978'),
     exact: true
   },
   {
@@ -69,28 +59,13 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/教學/',
+    component: ComponentCreator('/blog/tags/教學/','e3b'),
+    exact: true
+  },
+  {
     path: '/blog/tags/docusaurus/',
-    component: ComponentCreator('/blog/tags/docusaurus/','6a7'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook/',
-    component: ComponentCreator('/blog/tags/facebook/','58a'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello/',
-    component: ComponentCreator('/blog/tags/hello/','ba6'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola/',
-    component: ComponentCreator('/blog/tags/hola/','e5e'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome/',
-    component: ComponentCreator('/blog/welcome/','87e'),
+    component: ComponentCreator('/blog/tags/docusaurus/','e93'),
     exact: true
   },
   {

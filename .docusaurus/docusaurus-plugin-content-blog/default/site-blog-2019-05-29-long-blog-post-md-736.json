@@ -20,16 +20,16 @@
   "truncated": true,
   "authors": [
     {
-      "name": "Endilie Yacop Sucipto",
-      "title": "Maintainer of Docusaurus",
-      "url": "https://github.com/endiliey",
-      "imageURL": "https://github.com/endiliey.png",
-      "key": "endi"
+      "name": "罐罐 JasonXDDD",
+      "title": "FrontEnd Engineer",
+      "url": "https://jasonxddd.github.io",
+      "imageURL": "https://github.com/jasonxddd.png",
+      "key": "JasonXDDD"
     }
   ],
   "prevItem": {
-    "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
   },
   "nextItem": {
     "title": "First Blog Post",

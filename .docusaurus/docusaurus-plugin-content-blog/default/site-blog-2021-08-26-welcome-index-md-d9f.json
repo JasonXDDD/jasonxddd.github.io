@@ -24,22 +24,19 @@
   "truncated": false,
   "authors": [
     {
-      "name": "Sébastien Lorber",
-      "title": "Docusaurus maintainer",
-      "url": "https://sebastienlorber.com",
-      "imageURL": "https://github.com/slorber.png",
-      "key": "slorber"
-    },
-    {
-      "name": "Yangshun Tay",
-      "title": "Front End Engineer @ Facebook",
-      "url": "https://github.com/yangshun",
-      "imageURL": "https://github.com/yangshun.png",
-      "key": "yangshun"
+      "name": "罐罐 JasonXDDD",
+      "title": "FrontEnd Engineer",
+      "url": "https://jasonxddd.github.io",
+      "imageURL": "https://github.com/jasonxddd.png",
+      "key": "JasonXDDD"
     }
   ],
+  "prevItem": {
+    "title": "Hello World",
+    "permalink": "/blog/hello-world"
+  },
   "nextItem": {
-    "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
+    "title": "Long Blog Post",
+    "permalink": "/blog/long-blog-post"
   }
 }
