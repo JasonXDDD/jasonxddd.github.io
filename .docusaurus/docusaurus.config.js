@@ -1,8 +1,9 @@
 export default {
-  "title": "My Site",
+  "title": "成神之路",
   "tagline": "Dinosaurs are cool",
   "url": "https://jasonxddd.github.io",
   "baseUrl": "/",
+  "trailingSlash": true,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
@@ -28,9 +29,9 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "成神之路 XD",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "JasonXDDD Website Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -38,20 +39,34 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Tutorial"
+          "label": "文件"
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "部落格",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/JasonXDDD",
           "label": "GitHub",
+          "position": "right"
+        },
+        {
+          "href": "https://www.facebook.com/jasonliu1022/",
+          "label": "Facebook",
+          "position": "right"
+        },
+        {
+          "href": "https://github.com/facebook/docusaurus",
+          "label": "Resume",
+          "position": "right"
+        },
+        {
+          "type": "search",
           "position": "right"
         }
       ],
-      "hideOnScroll": false
+      "hideOnScroll": true
     },
     "footer": {
       "style": "dark",
