@@ -1,0 +1,17 @@
+{
+  "permalink": "/blog/2021-1027",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-1027.md",
+  "source": "@site/blog/2021-1027.md",
+  "title": "2021-1027",
+  "description": "",
+  "date": "2021-10-27T09:31:20.843Z",
+  "formattedDate": "October 27, 2021",
+  "tags": [],
+  "readingTime": 0,
+  "truncated": false,
+  "authors": [],
+  "nextItem": {
+    "title": "Hello World, Docusaurus!",
+    "permalink": "/blog/hello-world"
+  }
+}

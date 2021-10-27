@@ -21,15 +21,23 @@
   "/__docusaurus/debug/routes/-b09": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog/-f9e": {
+  "/blog/-804": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-814-0c3",
     "items": [
+      {
+        "content": "content---blog-8-f-4-4d1"
+      },
       {
         "content": "content---blog-19-c-f3f"
       }
     ],
     "metadata": "metadata---blog-b-2-b-af2"
+  },
+  "/blog/2021-plan/-0ac": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-0c3",
+    "content": "content---blog-2021-10-27-bfe-2eb"
   },
   "/blog/archive/-38a": {
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
@@ -64,6 +72,16 @@
       }
     ],
     "metadata": "metadata---blog-tags-docusaurus-a-80-f73"
+  },
+  "/blog/tags/plan/-8ee": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-0c3",
+    "items": [
+      {
+        "content": "content---blog-8-f-4-4d1"
+      }
+    ],
+    "metadata": "metadata---blog-tags-plan-0-f-2-283"
   },
   "/markdown-page/-9d9": {
     "component": "component---theme-mdx-page-1-f-3-b90",

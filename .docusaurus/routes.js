@@ -40,7 +40,12 @@ export default [
   },
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/','f9e'),
+    component: ComponentCreator('/blog/','804'),
+    exact: true
+  },
+  {
+    path: '/blog/2021-plan/',
+    component: ComponentCreator('/blog/2021-plan/','0ac'),
     exact: true
   },
   {
@@ -66,6 +71,11 @@ export default [
   {
     path: '/blog/tags/docusaurus/',
     component: ComponentCreator('/blog/tags/docusaurus/','e93'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/plan/',
+    component: ComponentCreator('/blog/tags/plan/','8ee'),
     exact: true
   },
   {
