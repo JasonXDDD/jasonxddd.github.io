@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tut 哈囉你好嗎",
+    "title": "[Next.js] Pages",
     "permalink": "/docs/react-next-js/page"
   }
 }

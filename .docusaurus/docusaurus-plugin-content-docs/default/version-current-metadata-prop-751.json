@@ -21,7 +21,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Tut 哈囉你好嗎",
+            "label": "[Next.js] Pages",
             "href": "/docs/react-next-js/page"
           }
         ]

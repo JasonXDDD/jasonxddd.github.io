@@ -18,7 +18,7 @@ export default {
   'component---theme-mdx-page-1-f-3-b90': [() => import(/* webpackChunkName: 'component---theme-mdx-page-1-f-3-b90' */ "@theme/MDXPage"), "@theme/MDXPage", require.resolveWeak("@theme/MDXPage")],
   'config---5-e-9-4f3': [() => import(/* webpackChunkName: 'config---5-e-9-4f3' */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
   'content---blog-19-c-f3f': [() => import(/* webpackChunkName: 'content---blog-19-c-f3f' */ "@site/blog/2021-10-26.md?truncated=true"), "@site/blog/2021-10-26.md?truncated=true", require.resolveWeak("@site/blog/2021-10-26.md?truncated=true")],
-  'content---blog-2021-10-27-bfe-2eb': [() => import(/* webpackChunkName: 'content---blog-2021-10-27-bfe-2eb' */ "@site/blog/2021-10-27.md"), "@site/blog/2021-10-27.md", require.resolveWeak("@site/blog/2021-10-27.md")],
+  'content---blog-2021-plan-bfe-15e': [() => import(/* webpackChunkName: 'content---blog-2021-plan-bfe-15e' */ "@site/blog/2021-10-27.md"), "@site/blog/2021-10-27.md", require.resolveWeak("@site/blog/2021-10-27.md")],
   'content---blog-8-f-4-4d1': [() => import(/* webpackChunkName: 'content---blog-8-f-4-4d1' */ "@site/blog/2021-10-27.md?truncated=true"), "@site/blog/2021-10-27.md?truncated=true", require.resolveWeak("@site/blog/2021-10-27.md?truncated=true")],
   'content---blog-hello-world-80-a-8af': [() => import(/* webpackChunkName: 'content---blog-hello-world-80-a-8af' */ "@site/blog/2021-10-26.md"), "@site/blog/2021-10-26.md", require.resolveWeak("@site/blog/2021-10-26.md")],
   'content---docs-intro-0-e-3-7e4': [() => import(/* webpackChunkName: 'content---docs-intro-0-e-3-7e4' */ "@site/docs/intro.md"), "@site/docs/intro.md", require.resolveWeak("@site/docs/intro.md")],
