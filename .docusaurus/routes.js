@@ -85,14 +85,8 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/','cfe'),
+    component: ComponentCreator('/docs/','6de'),
     routes: [
-      {
-        path: '/docs/hello/intro/',
-        component: ComponentCreator('/docs/hello/intro/','256'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
       {
         path: '/docs/intro/',
         component: ComponentCreator('/docs/intro/','688'),
@@ -100,50 +94,8 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/congratulations/',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations/','cb6'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-blog-post/',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post/','927'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-document/',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document/','304'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-page/',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page/','cd5'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/deploy-your-site/',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site/','fa7'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/markdown-features/',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features/','920'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/manage-docs-versions/',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions/','bc2'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/translate-your-site/',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site/','dad'),
+        path: '/docs/react-next-js/page/',
+        component: ComponentCreator('/docs/react-next-js/page/','353'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

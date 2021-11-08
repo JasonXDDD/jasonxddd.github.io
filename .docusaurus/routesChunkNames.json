@@ -87,49 +87,17 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-038"
   },
-  "/docs/-cfe": {
+  "/docs/-6de": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-739"
-  },
-  "/docs/hello/intro/-256": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-hello-intro-547-d9b"
   },
   "/docs/intro/-688": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-7e4"
   },
-  "/docs/tutorial-basics/congratulations/-cb6": {
+  "/docs/react-next-js/page/-353": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-b06"
-  },
-  "/docs/tutorial-basics/create-a-blog-post/-927": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-a85"
-  },
-  "/docs/tutorial-basics/create-a-document/-304": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-3d2"
-  },
-  "/docs/tutorial-basics/create-a-page/-cd5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-706"
-  },
-  "/docs/tutorial-basics/deploy-your-site/-fa7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-site-f-55-113"
-  },
-  "/docs/tutorial-basics/markdown-features/-920": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-e14"
-  },
-  "/docs/tutorial-extras/manage-docs-versions/-bc2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versions-dff-158"
-  },
-  "/docs/tutorial-extras/translate-your-site/-dad": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-site-e-44-b93"
+    "content": "content---docs-react-next-js-page-668-287"
   },
   "/-f49": {
     "component": "component---site-src-pages-index-tsx-1-df-d3e",
