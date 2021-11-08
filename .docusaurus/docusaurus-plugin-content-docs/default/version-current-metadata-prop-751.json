@@ -21,6 +21,11 @@
         "items": [
           {
             "type": "link",
+            "label": "[Next.js] Data Fetching",
+            "href": "/docs/react-next-js/data-fetching"
+          },
+          {
+            "type": "link",
             "label": "[Next.js] Pages",
             "href": "/docs/react-next-js/page"
           }

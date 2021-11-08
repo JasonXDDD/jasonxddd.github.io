@@ -37,7 +37,7 @@ sidebar_position: 1
 
 
 
-### Static Generation
+## Static Generation
 
 - 分兩種狀況
 
@@ -117,7 +117,7 @@ sidebar_position: 1
 
       
 
-### SSR
+## SSR
 
 - 處理全部的 Request 請求，用 `getServerProps()` 來預處理資料
 

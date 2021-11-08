@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "[Next.js] Pages",
-    "permalink": "/docs/react-next-js/page"
+    "title": "[Next.js] Data Fetching",
+    "permalink": "/docs/react-next-js/data-fetching"
   }
 }

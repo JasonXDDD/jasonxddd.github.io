@@ -38,6 +38,33 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
+                "title": "[Next.js] Data Fetching",
+                "permalink": "/docs/react-next-js/data-fetching"
+              }
+            },
+            {
+              "unversionedId": "react-next-js/data-fetching",
+              "id": "react-next-js/data-fetching",
+              "isDocsHomePage": false,
+              "title": "[Next.js] Data Fetching",
+              "description": "前言",
+              "source": "@site/docs/react-next-js/data-fetching.md",
+              "sourceDirName": "react-next-js",
+              "slug": "/react-next-js/data-fetching",
+              "permalink": "/docs/react-next-js/data-fetching",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/react-next-js/data-fetching.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
+              },
+              "next": {
                 "title": "[Next.js] Pages",
                 "permalink": "/docs/react-next-js/page"
               }
@@ -61,8 +88,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "title": "[Next.js] Data Fetching",
+                "permalink": "/docs/react-next-js/data-fetching"
               }
             }
           ],
@@ -78,6 +105,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "react-next-js/data-fetching"
+                  },
                   {
                     "type": "doc",
                     "id": "react-next-js/page"

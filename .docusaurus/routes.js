@@ -85,11 +85,17 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/','6de'),
+    component: ComponentCreator('/docs/','ab1'),
     routes: [
       {
         path: '/docs/intro/',
         component: ComponentCreator('/docs/intro/','688'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/react-next-js/data-fetching/',
+        component: ComponentCreator('/docs/react-next-js/data-fetching/','f71'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

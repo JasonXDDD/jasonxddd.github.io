@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "react-next-js/data-fetching",
+              "path": "/docs/react-next-js/data-fetching",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "react-next-js/page",
               "path": "/docs/react-next-js/page",
               "sidebar": "tutorialSidebar"
