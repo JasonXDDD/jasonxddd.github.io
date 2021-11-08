@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjasonxddd_website=self.webpackChunkjasonxddd_website||[]).push([[162],{2983:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/plan","name":"plan","count":1,"permalink":"/blog/tags/plan"}')}}]);
