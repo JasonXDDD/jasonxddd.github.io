@@ -40,7 +40,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 | 參數            | 敘述                                               | 補充                                                         |
 | --------------- | -------------------------------------------------- | ------------------------------------------------------------ |
 | `params`        | 動態路由的參數，應該與 `getStaticPaths` 一起使用。 | [Dynamic Routing documentation](https://nextjs.org/docs/routing/dynamic-routes) |
-| `preview`       | `(true | undefined)` 是否進入 Preview Mode。       | [Preview Mode documentation](https://nextjs.org/docs/advanced-features/preview-mode) |
+| `preview`       | `(true undefined)` 是否進入 Preview Mode。         | [Preview Mode documentation](https://nextjs.org/docs/advanced-features/preview-mode) |
 | `previewData`   | 根據 `setPreviewData` 傳入的內容。                 | [Preview Mode documentation](https://nextjs.org/docs/advanced-features/preview-mode) |
 | `locale`        | 目前的 active locale                               | [Internationalized Routing](https://nextjs.org/docs/advanced-features/i18n-routing) |
 | `locales`       | 支援的所有 locales                                 | [Internationalized Routing](https://nextjs.org/docs/advanced-features/i18n-routing) |
