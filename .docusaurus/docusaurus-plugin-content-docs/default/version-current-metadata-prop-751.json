@@ -15,19 +15,32 @@
       },
       {
         "type": "category",
+        "label": "貓罐子 V2",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "[Bottle Neko] 我想改版了！",
+            "href": "/docs/bottle-neko/plan"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "[Next.js] 學習筆記",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "[Next.js] Data Fetching",
-            "href": "/docs/react-next-js/data-fetching"
+            "label": "[Next.js] Pages",
+            "href": "/docs/react-next-js/page"
           },
           {
             "type": "link",
-            "label": "[Next.js] Pages",
-            "href": "/docs/react-next-js/page"
+            "label": "[Next.js] Data Fetching",
+            "href": "/docs/react-next-js/data-fetching"
           }
         ]
       }

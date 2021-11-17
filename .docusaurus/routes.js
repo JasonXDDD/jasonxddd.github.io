@@ -85,8 +85,14 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/','ab1'),
+    component: ComponentCreator('/docs/','de5'),
     routes: [
+      {
+        path: '/docs/bottle-neko/plan/',
+        component: ComponentCreator('/docs/bottle-neko/plan/','42b'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
       {
         path: '/docs/intro/',
         component: ComponentCreator('/docs/intro/','688'),

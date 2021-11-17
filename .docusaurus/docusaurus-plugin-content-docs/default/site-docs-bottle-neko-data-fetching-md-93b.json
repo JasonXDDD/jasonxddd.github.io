@@ -1,0 +1,27 @@
+{
+  "unversionedId": "bottle-neko/data-fetching",
+  "id": "bottle-neko/data-fetching",
+  "isDocsHomePage": false,
+  "title": "[Next.js] Data Fetching",
+  "description": "前言",
+  "source": "@site/docs/bottle-neko/data-fetching.md",
+  "sourceDirName": "bottle-neko",
+  "slug": "/bottle-neko/data-fetching",
+  "permalink": "/docs/bottle-neko/data-fetching",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/bottle-neko/data-fetching.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "[Next.js] Pages",
+    "permalink": "/docs/react-next-js/page"
+  }
+}

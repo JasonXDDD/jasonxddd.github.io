@@ -17,6 +17,10 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
+    "title": "[Bottle Neko] 我想改版了！",
+    "permalink": "/docs/bottle-neko/plan"
+  },
+  "next": {
     "title": "[Next.js] Data Fetching",
     "permalink": "/docs/react-next-js/data-fetching"
   }

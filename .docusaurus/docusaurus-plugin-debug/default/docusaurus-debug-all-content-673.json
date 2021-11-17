@@ -20,6 +20,33 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "unversionedId": "bottle-neko/plan",
+              "id": "bottle-neko/plan",
+              "isDocsHomePage": false,
+              "title": "[Bottle Neko] 我想改版了！",
+              "description": "嗨嗨大家好，我是作者罐罐！",
+              "source": "@site/docs/bottle-neko/plan.md",
+              "sourceDirName": "bottle-neko",
+              "slug": "/bottle-neko/plan",
+              "permalink": "/docs/bottle-neko/plan",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/bottle-neko/plan.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial Intro",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "[Next.js] Pages",
+                "permalink": "/docs/react-next-js/page"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "isDocsHomePage": false,
@@ -38,8 +65,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "[Next.js] Data Fetching",
-                "permalink": "/docs/react-next-js/data-fetching"
+                "title": "[Bottle Neko] 我想改版了！",
+                "permalink": "/docs/bottle-neko/plan"
               }
             },
             {
@@ -55,16 +82,12 @@
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/react-next-js/data-fetching.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
-              },
-              "next": {
                 "title": "[Next.js] Pages",
                 "permalink": "/docs/react-next-js/page"
               }
@@ -88,6 +111,10 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "[Bottle Neko] 我想改版了！",
+                "permalink": "/docs/bottle-neko/plan"
+              },
+              "next": {
                 "title": "[Next.js] Data Fetching",
                 "permalink": "/docs/react-next-js/data-fetching"
               }
@@ -101,17 +128,29 @@
               },
               {
                 "type": "category",
+                "label": "貓罐子 V2",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "bottle-neko/plan"
+                  }
+                ]
+              },
+              {
+                "type": "category",
                 "label": "[Next.js] 學習筆記",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "react-next-js/data-fetching"
+                    "id": "react-next-js/page"
                   },
                   {
                     "type": "doc",
-                    "id": "react-next-js/page"
+                    "id": "react-next-js/data-fetching"
                   }
                 ]
               }

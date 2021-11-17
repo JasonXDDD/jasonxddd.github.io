@@ -1,0 +1,27 @@
+{
+  "unversionedId": "bottle-neko/plan",
+  "id": "bottle-neko/plan",
+  "isDocsHomePage": false,
+  "title": "[Bottle Neko] 我想改版了！",
+  "description": "嗨嗨大家好，我是作者罐罐！",
+  "source": "@site/docs/bottle-neko/plan.md",
+  "sourceDirName": "bottle-neko",
+  "slug": "/bottle-neko/plan",
+  "permalink": "/docs/bottle-neko/plan",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/bottle-neko/plan.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "[Next.js] Pages",
+    "permalink": "/docs/react-next-js/page"
+  }
+}
