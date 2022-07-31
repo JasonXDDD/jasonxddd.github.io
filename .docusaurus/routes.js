@@ -65,7 +65,7 @@ export default [
   },
   {
     path: '/blog/tags/教學/',
-    component: ComponentCreator('/blog/tags/教學/','e3b'),
+    component: ComponentCreator('/blog/tags/教學/','bca'),
     exact: true
   },
   {

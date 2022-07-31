@@ -14,7 +14,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/bigdata/Documents/jasonxddd.github.io/sidebars.js",
+          "sidebarPath": "D:\\Work\\jasonxddd.github.io\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/"
         },
         "blog": {
@@ -22,7 +22,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/bigdata/Documents/jasonxddd.github.io/src/css/custom.css"
+          "customCss": "D:\\Work\\jasonxddd.github.io\\src\\css\\custom.css"
         }
       }
     ]
@@ -111,7 +111,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
