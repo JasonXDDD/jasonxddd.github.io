@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/first-blog-post",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2019-05-28-first-blog-post.md",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
   "source": "@site/blog/2019-05-28-first-blog-post.md",
   "title": "First Blog Post",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
@@ -17,16 +17,31 @@
     }
   ],
   "readingTime": 0.12,
-  "truncated": false,
+  "hasTruncateMarker": false,
   "authors": [
     {
-      "name": "罐罐 JasonXDDD",
-      "title": "FrontEnd Engineer",
-      "url": "https://jasonxddd.github.io",
-      "imageURL": "https://github.com/jasonxddd.png",
-      "key": "JasonXDDD"
+      "name": "Gao Wei",
+      "title": "Docusaurus Core Team",
+      "url": "https://github.com/wgao19",
+      "image_url": "https://github.com/wgao19.png",
+      "imageURL": "https://github.com/wgao19.png"
     }
   ],
+  "frontMatter": {
+    "slug": "first-blog-post",
+    "title": "First Blog Post",
+    "authors": {
+      "name": "Gao Wei",
+      "title": "Docusaurus Core Team",
+      "url": "https://github.com/wgao19",
+      "image_url": "https://github.com/wgao19.png",
+      "imageURL": "https://github.com/wgao19.png"
+    },
+    "tags": [
+      "hola",
+      "docusaurus"
+    ]
+  },
   "prevItem": {
     "title": "Long Blog Post",
     "permalink": "/blog/long-blog-post"

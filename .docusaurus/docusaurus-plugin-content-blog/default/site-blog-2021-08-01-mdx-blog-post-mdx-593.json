@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/mdx-blog-post",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-01-mdx-blog-post.mdx",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "MDX Blog Post",
   "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -13,7 +13,7 @@
     }
   ],
   "readingTime": 0.175,
-  "truncated": false,
+  "hasTruncateMarker": false,
   "authors": [
     {
       "name": "Sébastien Lorber",
@@ -23,6 +23,16 @@
       "key": "slorber"
     }
   ],
+  "frontMatter": {
+    "slug": "mdx-blog-post",
+    "title": "MDX Blog Post",
+    "authors": [
+      "slorber"
+    ],
+    "tags": [
+      "docusaurus"
+    ]
+  },
   "prevItem": {
     "title": "Welcome",
     "permalink": "/blog/welcome"

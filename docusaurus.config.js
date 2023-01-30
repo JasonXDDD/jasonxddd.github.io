@@ -6,32 +6,50 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '成神之路',
+  title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://jasonxddd.github.io',
+  favicon: 'img/favicon.ico',
+
+  // Set the production url of your site here
+  url: 'https://your-docusaurus-test-site.com',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-  trailingSlash: true,
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'JasonXDDD', // Usually your GitHub org/user name.
-  projectName: 'jasonxddd.github.io', // Usually your repo name.
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,10 +61,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // Replace with your project's social card
+      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '成神之路 XD',
+        title: 'My Site',
         logo: {
-          alt: 'JasonXDDD Website Logo',
+          alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -54,33 +74,15 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '文件',
+            label: 'Tutorial',
           },
-          { to: '/blog', label: '部落格', position: 'left' },
-          {
-            href: 'https://github.com/JasonXDDD',
-            label: 'GitHub',
-            position: 'right',
-          //   className: 'header-github-link',
-          // 'aria-label': 'GitHub repository',
-          },
-          {
-            href: 'https://www.facebook.com/jasonliu1022/',
-            label: 'Facebook',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'Resume',
-            position: 'right',
-          },
-          {
-            type: 'search',
+            label: 'GitHub',
             position: 'right',
           },
         ],
-        hideOnScroll: true,
-
       },
       footer: {
         style: 'dark',
@@ -131,26 +133,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // algolia: {
-      //   // If Algolia did not provide you any appId, use 'BH4D9OD16A'
-      //   appId: 'YOUR_APP_ID',
-  
-      //   // Public API key: it is safe to commit it
-      //   apiKey: 'YOUR_SEARCH_API_KEY',
-  
-      //   indexName: 'YOUR_INDEX_NAME',
-  
-      //   // Optional: see doc section below
-      //   contextualSearch: true,
-  
-      //   // Optional: see doc section below
-      //   appId: 'YOUR_APP_ID',
-  
-      //   // Optional: Algolia search parameters
-      //   searchParameters: {},
-  
-      //   //... other Algolia params
-      // },
     }),
 };
 

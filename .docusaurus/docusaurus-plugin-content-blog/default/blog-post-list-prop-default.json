@@ -2,12 +2,20 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "2021年末計畫",
-      "permalink": "/blog/2021-plan"
+      "title": "Welcome",
+      "permalink": "/blog/welcome"
     },
     {
-      "title": "Hello World, Docusaurus!",
-      "permalink": "/blog/hello-world"
+      "title": "MDX Blog Post",
+      "permalink": "/blog/mdx-blog-post"
+    },
+    {
+      "title": "Long Blog Post",
+      "permalink": "/blog/long-blog-post"
+    },
+    {
+      "title": "First Blog Post",
+      "permalink": "/blog/first-blog-post"
     }
   ]
 }

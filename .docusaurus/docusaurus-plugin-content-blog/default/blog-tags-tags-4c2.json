@@ -1,23 +1,22 @@
-{
-  "/blog/tags/plan": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/plan",
-    "name": "plan",
-    "count": 1,
-    "permalink": "/blog/tags/plan"
+[
+  {
+    "label": "facebook",
+    "permalink": "/blog/tags/facebook",
+    "count": 1
   },
-  "/blog/tags/docusaurus": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/docusaurus",
-    "name": "docusaurus",
-    "count": 1,
-    "permalink": "/blog/tags/docusaurus"
+  {
+    "label": "hello",
+    "permalink": "/blog/tags/hello",
+    "count": 2
   },
-  "/blog/tags/教學": {
-    "allTagsPath": "/blog/tags",
-    "slug": "/blog/tags/教學",
-    "name": "教學",
-    "count": 1,
-    "permalink": "/blog/tags/教學"
+  {
+    "label": "docusaurus",
+    "permalink": "/blog/tags/docusaurus",
+    "count": 4
+  },
+  {
+    "label": "hola",
+    "permalink": "/blog/tags/hola",
+    "count": 1
   }
-}
+]
