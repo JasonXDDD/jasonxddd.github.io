@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjasonxddd_website=self.webpackChunkjasonxddd_website||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"2021\u5e74\u672b\u8a08\u756b","permalink":"/blog/2021-plan"},{"title":"Hello World, Docusaurus!","permalink":"/blog/hello-world"}]}')}}]);
