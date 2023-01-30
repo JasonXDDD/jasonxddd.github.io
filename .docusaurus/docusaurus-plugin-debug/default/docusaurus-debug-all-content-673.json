@@ -12,12 +12,12 @@
           "path": "/docs",
           "tagsPath": "/docs/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/zh/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/bigdata/Documents/jasonxddd.github.io/sidebars.js",
           "contentPath": "/Users/bigdata/Documents/jasonxddd.github.io/docs",
-          "contentPathLocalized": "/Users/bigdata/Documents/jasonxddd.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "contentPathLocalized": "/Users/bigdata/Documents/jasonxddd.github.io/i18n/zh/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -340,7 +340,7 @@
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
             "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
+            "formattedDate": "2021年8月26日",
             "tags": [
               {
                 "label": "facebook",
@@ -402,7 +402,7 @@
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
             "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
+            "formattedDate": "2021年8月1日",
             "tags": [
               {
                 "label": "docusaurus",
@@ -450,7 +450,7 @@
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
             "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
+            "formattedDate": "2019年5月29日",
             "tags": [
               {
                 "label": "hello",
@@ -501,7 +501,7 @@
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
             "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
+            "formattedDate": "2019年5月28日",
             "tags": [
               {
                 "label": "hola",
