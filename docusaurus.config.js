@@ -74,12 +74,17 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '技術文件',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: '碎碎念', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/jasonxddd',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://www.facebook.com/jasonliu1022',
+            label: 'Facebook',
             position: 'right',
           },
         ],
@@ -88,46 +93,79 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '快速導覽 Link',
             items: [
               {
-                label: 'Tutorial',
+                label: '技術文章',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
+                label: '碎碎念',
                 to: '/blog',
               },
+            ],
+          },
+          {
+            title: '與我聯絡 Contact',
+            items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/jasonxddd',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/jasonliu1022',
+              },
+              {
+                label: 'jason1022liu@gmail.com',
+                href: 'mailto:jason1022liu@gmail.com',
+              },
+            ],
+          },
+          {
+            title: '從前從前 OnceUponATime',
+            items: [
+              {
+                label: '從前從前',
+                href: 'https://once-upon-a-time.jasonxddd.me'
+              },
+              {
+                label: '從前從前 iOS',
+                href: 'https://apps.apple.com/tw/app/從前從前/id1479010256'
+              },
+              {
+                label: '從前從前 介紹影片',
+                href: 'https://www.facebook.com/watch/?v=446463282608647'
+              },
+            ],
+          },
+          {
+            title: '貓罐子 BottleNeko',
+            items: [
+              {
+                label: '貓罐子',
+                href: 'https://bottleneko.app',
+              },
+              {
+                label: '貓罐子 V2',
+                href: 'https://bottleneko-v2.vercel.app',
+              },
+              {
+                label: '貓罐子 粉絲專頁',
+                href: 'https://www.facebook.com/BottleNeko',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        logo: {
+          alt: 'JasonXDDD Blog Logo',
+          src: 'img/logo.svg',
+          href: 'https://jasonxddd.github.io',
+          width: 160,
+          height: 51,
+        },
+
+        copyright: `Copyright © ${new Date().getFullYear()} 成神之路 JasonXDDD, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
