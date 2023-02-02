@@ -36,6 +36,11 @@
       "type": "package",
       "name": "@docusaurus/plugin-pwa",
       "version": "2.3.0"
+    },
+    "docusaurus-plugin-ideal-image": {
+      "type": "package",
+      "name": "@docusaurus/plugin-ideal-image",
+      "version": "2.3.0"
     }
   }
 }
