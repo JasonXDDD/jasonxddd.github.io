@@ -91,6 +91,15 @@ const config = {
         ],
       },
     ],
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // 最大缩放图片尺寸。
+        min: 640, // 最小缩放图片尺寸。 如果原始值比这还低，会使用原图尺寸。
+        steps: 2, // 在 min 和 max 之间最多生成的图片数量（包含两端点）
+      },
+    ],
   ],
 
   presets: [
@@ -98,6 +107,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-GP6YG0N9QR',
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -115,8 +127,14 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
-    ],
+    ]
   ],
 
   themeConfig:

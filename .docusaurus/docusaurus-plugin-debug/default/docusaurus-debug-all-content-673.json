@@ -721,6 +721,7 @@
     ]
   },
   "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-gtag": {},
   "docusaurus-theme-classic": {},
   "docusaurus-plugin-pwa": {},
   "docusaurus-bootstrap-plugin": {},
