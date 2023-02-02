@@ -1,0 +1,57 @@
+{
+  "name": "成神之路",
+  "short_name": "成神之路",
+  "theme_color": "#2196f3",
+  "background_color": "#242526",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./index.html",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://jasonxddd.vercel.app/manifest.json"
+    }
+  ],
+  "icons": [
+    {
+      "src": "img/logo.svg",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo.svg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

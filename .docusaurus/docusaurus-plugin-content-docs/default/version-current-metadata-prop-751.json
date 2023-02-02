@@ -11,6 +11,12 @@
     "tutorialSidebar": [
       {
         "type": "link",
+        "label": "網站地圖",
+        "href": "/docs/map",
+        "docId": "map"
+      },
+      {
+        "type": "link",
         "label": "Tutorial Intro",
         "href": "/docs/intro",
         "docId": "intro"
@@ -88,6 +94,12 @@
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "map": {
+      "id": "map",
+      "title": "網站地圖",
+      "description": "嗨！歡迎你的到來，這裡是目前網站地圖，歡迎來逛逛喔！",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {
