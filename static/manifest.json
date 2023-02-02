@@ -14,9 +14,15 @@
   ],
   "icons": [
     {
+      "src": "img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
       "src": "img/logo.svg",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     }
   ]
 }
